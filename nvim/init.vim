@@ -1,3 +1,5 @@
+" ------ dein ------
+
 if &compatible
   set nocompatible
 endif
@@ -36,23 +38,29 @@ endif
 filetype plugin indent on
 syntax enable
 
-" If you want to install not installed plugins on startup.
+" 新しく入れたプラグインがあれば自動でインストール
 if dein#check_install()
   call dein#install()
 endif
 
 
-" 設定まわり
+" ----- 設定まわり -----
+set encoding=utf-8
+set fileencoding=utf-8
+set ambiwidth=double
 
 " NERDTreeToggle のキーマップ
 map <C-e> :NERDTreeToggle<CR>
-
+" カラースキームの設定
+colorscheme jellybeans
 " 行数を表示
 set number
 " クリップボードの共有
-set clipboard=unnamed
+set clipboard+=unnamed
 " 現在の行を強調, ハイライト化
 set cursorline
+" インクリメンタルサーチ
+set incsearch
 " 検索結果をハイライト
 set hlsearch
 " 検索パターンに大文字小文字を判断しない
@@ -71,4 +79,5 @@ set listchars=tab:»-,trail:.,extends:»,nbsp:%
 set virtualedit=onemore
 " タイトルをセット
 set title
-
+" 保存するコマンド履歴の数
+set history=5000

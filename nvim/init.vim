@@ -1,4 +1,6 @@
-" ------ dein ------
+" =====================
+" ==     dein        ==
+" =====================
 
 if &compatible
   set nocompatible
@@ -17,7 +19,6 @@ if &runtimepath !~# '/dein.vim'
   endif
   execute 'set runtimepath^=' . fnamemodify(s:dein_repo_dir, ':p')
 endif
-
 
 if dein#load_state(s:dein_dir)
   call dein#begin(s:dein_dir)
@@ -44,15 +45,14 @@ if dein#check_install()
 endif
 
 
-" ----- 設定まわり -----
+" =====================
+" ==      設定       ==
+" =====================
+
 set encoding=utf-8
 set fileencoding=utf-8
 set ambiwidth=double
 
-" NERDTreeToggle のキーマップ
-map <C-e> :NERDTreeToggle<CR>
-" カラースキームの設定
-colorscheme jellybeans
 " 行数を表示
 set number
 " クリップボードの共有
@@ -81,3 +81,22 @@ set virtualedit=onemore
 set title
 " 保存するコマンド履歴の数
 set history=5000
+
+
+" =====================
+" ==   map settgin   ==
+" =====================
+
+" ウィンドウ分割系
+noremap <C-j> :split<CR>
+noremap <C-k>j <C-w>j
+noremap <C-k>k <C-w>k
+noremap <C-k>h <C-w>h
+noremap <C-k>l <C-w>l
+
+" ウィンドウ移動系
+noremap sj <C-w>j
+noremap sk <C-w>k
+noremap sh <C-w>h
+noremap sl <C-w>l
+

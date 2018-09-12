@@ -3,6 +3,7 @@ repo = 'Shougo/dein.vim'
 
 [[plugins]]
 repo = 'scrooloose/nerdtree'
+hook_add = 'map <C-e> :NERDTreeToggle<CR>'
 
 [[plugins]]
 repo = 'Townk/vim-autoclose'
@@ -20,6 +21,13 @@ repo = 'airblade/vim-gitgutter'
 
 [[plugins]]
 repo = 'flazz/vim-colorschemes'
+hook_add = 'colorscheme jellybeans'
 
 [[plugins]]
 repo = 'tomtom/tcomment_vim'
+
+[[plugins]]
+repo = 'simeji/winresizer'
+hook_add = '''
+  let g:winresizer_start_key = '<C-T>'
+'''

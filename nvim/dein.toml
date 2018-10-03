@@ -3,7 +3,10 @@ repo = 'Shougo/dein.vim'
 
 [[plugins]]
 repo = 'scrooloose/nerdtree'
-hook_add = 'map <C-e> :NERDTreeToggle<CR>'
+hook_add = '''
+  map <C-e> :NERDTreeToggle<CR>
+  let g:NERDTreeShowHidden=1
+'''
 
 [[plugins]]
 repo = 'Townk/vim-autoclose'

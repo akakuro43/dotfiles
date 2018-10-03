@@ -87,6 +87,9 @@ set history=5000
 " ==   map settgin   ==
 " =====================
 
+" Insert mode
+inoremap <silent> jj <ESC>
+
 " ウィンドウ分割系
 noremap <C-j> :split<CR>
 noremap <C-k>j <C-w>j

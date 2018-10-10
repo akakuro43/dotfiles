@@ -6,3 +6,7 @@ on_ft = ['md', 'markdown']
 repo = 'tpope/vim-endwise'
 on_i = 1
 
+[[plugins]]
+repo = 'posva/vim-vue'
+on_ft = ['vue']
+

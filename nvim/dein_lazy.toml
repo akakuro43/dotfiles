@@ -1,4 +1,8 @@
 [[plugins]]
+repo = 'ctrlpvim/ctrlp.vim'
+on_path = '.*'
+
+[[plugins]]
 repo = 'rcmdnk/vim-markdown'
 on_ft = ['md', 'markdown']
 

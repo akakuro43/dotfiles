@@ -20,3 +20,8 @@ ln -s ~/dotfiles/nvim/dein_lazy.toml ~/.config/nvim/dein_lazy.toml
 ln -s ~/dotfiles/fish/config.fish ~/.config/fish/config.fish
 ```
 
+## zsh
+```
+ln -s ~/dotfiles/zsh/.zshrc ~/.zshrc
+```
+

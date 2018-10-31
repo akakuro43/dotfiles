@@ -25,3 +25,13 @@ ln -s ~/dotfiles/fish/config.fish ~/.config/fish/config.fish
 ln -s ~/dotfiles/zsh/.zshrc ~/.zshrc
 ```
 
+*use*
+[Prezto - Github](https://github.com/sorin-ionescu/prezto)
+
+add modules
+  'syntax-highlighting' \
+  'autosuggestions' \
+
+use prompt
+  pure
+

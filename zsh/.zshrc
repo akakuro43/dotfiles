@@ -13,3 +13,7 @@ fi
 # Customize to your needs...
 
 alias vim='nvim'
+
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init - zsh)"
+

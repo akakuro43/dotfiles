@@ -21,6 +21,10 @@ repo = 'Yggdroot/indentLine'
 repo = 'tpope/vim-fugitive'
 [[plugins]]
 repo = 'airblade/vim-gitgutter'
+hook_add = '''
+  set signcolumn=yes
+  set updatetime=100
+'''
 
 [[plugins]]
 repo = 'flazz/vim-colorschemes'
@@ -34,3 +38,4 @@ repo = 'simeji/winresizer'
 hook_add = '''
   let g:winresizer_start_key = '<C-T>'
 '''
+

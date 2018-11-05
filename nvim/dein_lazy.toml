@@ -14,3 +14,11 @@ on_i = 1
 repo = 'posva/vim-vue'
 on_ft = ['vue']
 
+[[plugins]]
+repo = 'vim-ruby/vim-ruby'
+on_ft = ['rb']
+
+[[plugins]]
+repo  = 'tpope/vim-rails'
+on_ft = ['rb']
+

@@ -92,7 +92,7 @@ inoremap <silent> jj <ESC>
 
 " ウィンドウ分割系
 noremap <silent> ss :split<CR>
-noremap <silent> sl <C-w>J
+noremap <silent> sv :vsplit<CR>
 
 " ウィンドウ移動系
 noremap sj <C-w>j

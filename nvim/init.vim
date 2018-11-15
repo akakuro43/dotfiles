@@ -91,11 +91,8 @@ set history=5000
 inoremap <silent> jj <ESC>
 
 " ウィンドウ分割系
-noremap <C-j> :split<CR>
-noremap <C-k>j <C-w>j
-noremap <C-k>k <C-w>k
-noremap <C-k>h <C-w>h
-noremap <C-k>l <C-w>l
+noremap <silent> ss :split<CR>
+noremap <silent> sl <C-w>J
 
 " ウィンドウ移動系
 noremap sj <C-w>j
@@ -103,3 +100,6 @@ noremap sk <C-w>k
 noremap sh <C-w>h
 noremap sl <C-w>l
 
+" バッファコマンド系
+noremap <silent> <C-j> :bprev<CR>
+noremap <silent> <C-k> :bnext<CR>

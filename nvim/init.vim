@@ -103,3 +103,6 @@ noremap sl <C-w>l
 " バッファコマンド系
 noremap <silent> <C-j> :bprev<CR>
 noremap <silent> <C-k> :bnext<CR>
+
+" ハイライト解除
+noremap <silent> <Space><Space> :nohl<CR>

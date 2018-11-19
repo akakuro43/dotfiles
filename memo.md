@@ -5,11 +5,13 @@ brew install neovim
 
 ## dein.vim install
 ```
-sh ./dotfiles/installer.sh ./.vim/bundles
+sh ~/dotfiles/installer.sh ./.vim/bundles
 ```
 
 ## 設定ファイルのシンボリックリンクを作成
 ```
+mkdir ~/.config
+mkdir ~/.config/nvim
 ln -s ~/dotfiles/nvim/init.vim ~/.config/nvim/init.vim
 ln -s ~/dotfiles/nvim/dein.toml ~/.config/nvim/dein.toml
 ln -s ~/dotfiles/nvim/dein_lazy.toml ~/.config/nvim/dein_lazy.toml

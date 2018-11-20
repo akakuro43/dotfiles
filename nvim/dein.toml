@@ -1,6 +1,16 @@
 [[plugins]]
 repo = 'Shougo/dein.vim'
 
+# =============
+# ==  color  ==
+# =============
+repo = 'cocopon/iceberg.vim'
+hook_add = 'colorscheme iceberg'
+
+[[plugins]]
+repo = 'flazz/vim-colorschemes'
+# hook_add = 'colorscheme jellybeans'
+
 [[plugins]]
 repo = 'scrooloose/nerdtree'
 hook_add = '''
@@ -25,10 +35,6 @@ hook_add = '''
   set signcolumn=yes
   set updatetime=100
 '''
-
-[[plugins]]
-repo = 'flazz/vim-colorschemes'
-hook_add = 'colorscheme jellybeans'
 
 [[plugins]]
 repo = 'tomtom/tcomment_vim'

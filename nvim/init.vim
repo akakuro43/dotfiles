@@ -81,7 +81,8 @@ set virtualedit=onemore
 set title
 " 保存するコマンド履歴の数
 set history=5000
-
+" コピペで貼り付けモードになるのを防止
+autocmd InsertLeave * set nopaste
 
 " =====================
 " ==   map settgin   ==

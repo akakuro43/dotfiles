@@ -91,6 +91,9 @@ autocmd InsertLeave * set nopaste
 " Insert mode
 inoremap <silent> jj <ESC>
 
+" normal mode時 Enterで改行
+nnoremap <CR>  i<Return><Esc>
+
 " ウィンドウ分割系
 noremap <silent> ss :split<CR>
 noremap <silent> sv :vsplit<CR>

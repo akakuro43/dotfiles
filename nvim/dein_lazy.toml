@@ -22,3 +22,6 @@ on_ft = ['rb']
 repo  = 'tpope/vim-rails'
 on_ft = ['rb']
 
+[[plugins]]
+repo = 'joonty/vdebug.git'
+on_ft = ['php']

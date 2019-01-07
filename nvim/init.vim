@@ -107,3 +107,7 @@ noremap <silent> <C-k> :bnext<CR>
 
 " ハイライト解除
 noremap <silent> <Space><Space> :nohl<CR>
+
+" markdown
+autocmd BufRead,BufNewFile *.md set filetype=markdown
+let g:previm_open_cmd = 'open -a Google\ Chrome'

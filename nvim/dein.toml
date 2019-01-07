@@ -45,3 +45,5 @@ hook_add = '''
   let g:winresizer_start_key = '<C-T>'
 '''
 
+[[plugins]]
+repo = 'terryma/vim-multiple-cursors'

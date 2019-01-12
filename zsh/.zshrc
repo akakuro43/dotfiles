@@ -17,3 +17,4 @@ alias vim='nvim'
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init - zsh)"
 
+export PATH="$PATH:$HOME/.composer/vendor/bin"

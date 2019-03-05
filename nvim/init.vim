@@ -83,6 +83,8 @@ set title
 set history=5000
 " コピペで貼り付けモードになるのを防止
 autocmd InsertLeave * set nopaste
+" 行末, 行頭から次の行へ移動可能に
+set whichwrap+=h,l
 
 " =====================
 " ==   map settgin   ==

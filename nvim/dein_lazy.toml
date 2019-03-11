@@ -21,6 +21,10 @@ on_i = 1
 repo = 'posva/vim-vue'
 on_ft = ['vue']
 
+# =============
+# ==  ruby   ==
+# =============
+
 [[plugins]]
 repo = 'vim-ruby/vim-ruby'
 on_ft = ['rb']
@@ -29,6 +33,18 @@ on_ft = ['rb']
 repo  = 'tpope/vim-rails'
 on_ft = ['rb']
 
+# =============
+# ==   php   ==
+# =============
+
 [[plugins]]
 repo = 'joonty/vdebug.git'
 on_ft = ['php']
+
+# =============
+# ==   js    ==
+# =============
+
+[[plugins]]
+repo = 'othree/yajs.vim'
+on_ft = ['javascript']

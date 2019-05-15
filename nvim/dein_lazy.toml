@@ -48,3 +48,11 @@ on_ft = ['php']
 [[plugins]]
 repo = 'othree/yajs.vim'
 on_ft = ['javascript']
+
+# =============
+# ==  html   ==
+# =============
+
+[[plugins]]
+repo = 'gregsexton/MatchTag'
+on_path = '.*'

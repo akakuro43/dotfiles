@@ -85,6 +85,13 @@ set history=5000
 autocmd InsertLeave * set nopaste
 " 行末, 行頭から次の行へ移動可能に
 set whichwrap+=h,l
+" 閉じタグの補完
+augroup MyXML
+  autocmd!
+  autocmd Filetype xml inoremap <buffer> </ </<C-x><C-o>
+  autocmd Filetype html inoremap <buffer> </ </<C-x><C-o>
+  autocmd Filetype eruby inoremap <buffer> </ </<C-x><C-o>
+augroup END
 
 " =====================
 " ==   map settgin   ==

@@ -94,6 +94,15 @@ augroup MyXML
 augroup END
 
 " =====================
+" ==      fzf        ==
+" =====================
+nnoremap <C-p> :FZFFileList<CR>
+command! FZFFileList call fzf#run(fzf#wrap({
+            \ 'source': 'find . -type d -name .git -prune -o ! -name .DS_Store',
+            \ 'down': '25%'}))
+
+
+" =====================
 " ==   map settgin   ==
 " =====================
 

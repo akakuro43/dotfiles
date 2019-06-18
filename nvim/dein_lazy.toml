@@ -1,8 +1,4 @@
 [[plugins]]
-repo = 'ctrlpvim/ctrlp.vim'
-on_path = '.*'
-
-[[plugins]]
 repo = 'plasticboy/vim-markdown'
 on_ft = ['md']
 

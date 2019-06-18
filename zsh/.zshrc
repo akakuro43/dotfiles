@@ -18,3 +18,10 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init - zsh)"
 
 export PATH="$PATH:$HOME/.composer/vendor/bin"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+fvim() {
+  files=$(git ls-files) &&
+  selected_files=$(echo "$files" | fzf -m --preview 'head -100 {}') &&
+  vim $selected_files
+}

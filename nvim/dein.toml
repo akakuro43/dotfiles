@@ -13,6 +13,12 @@ hook_add = 'colorscheme iceberg'
 # hook_add = 'colorscheme jellybeans'
 
 # ================
+# == StatusLine ==
+# ================
+[[plugins]]
+repo = 'itchyny/lightline.vim'
+
+# ================
 # ==  NERDTree  ==
 # ================
 [[plugins]]

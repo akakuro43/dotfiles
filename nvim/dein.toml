@@ -4,13 +4,17 @@ repo = 'Shougo/dein.vim'
 # =============
 # ==  color  ==
 # =============
+[[plugins]]
 repo = 'cocopon/iceberg.vim'
 hook_add = 'colorscheme iceberg'
 
-[[plugins]]
-repo = 'flazz/vim-colorschemes'
+# [[plugins]]
+# repo = 'flazz/vim-colorschemes'
 # hook_add = 'colorscheme jellybeans'
 
+# ================
+# ==  NERDTree  ==
+# ================
 [[plugins]]
 repo = 'scrooloose/nerdtree'
 hook_add = '''
@@ -27,6 +31,9 @@ repo = 'bronson/vim-trailing-whitespace'
 [[plugins]]
 repo = 'Yggdroot/indentLine'
 
+# ============
+# == Github ==
+# ============
 [[plugins]]
 repo = 'tpope/vim-fugitive'
 [[plugins]]
@@ -36,21 +43,32 @@ hook_add = '''
   set updatetime=100
 '''
 
+# =========================
+# == ctrl + - でコメント ==
+# =========================
 [[plugins]]
 repo = 'tomtom/tcomment_vim'
 
+# ===================
+# == Window Resize ==
+# ===================
 [[plugins]]
 repo = 'simeji/winresizer'
 hook_add = '''
   let g:winresizer_start_key = '<C-T>'
 '''
 
+# ==================
+# == 単語複数選択 ==
+# ==================
 [[plugins]]
 repo = 'terryma/vim-multiple-cursors'
 
+# ===========
+# ==  fzf  ==
+# ===========
 [[plugins]]
 repo = 'junegunn/fzf'
 build = './install --all'
-
 [[plugins]]
 repo = 'junegunn/fzf.vim'

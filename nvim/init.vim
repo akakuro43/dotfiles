@@ -104,13 +104,6 @@ command! FZFFileList call fzf#run(fzf#wrap({
 nnoremap <C-b> :Buffers<CR>
 
 " =====================
-" ==    lightline    ==
-" =====================
-let g:lightline = {
-  \ 'colorscheme': 'one',
-  \ }
-
-" =====================
 " ==   map settgin   ==
 " =====================
 

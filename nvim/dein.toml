@@ -8,15 +8,32 @@ repo = 'Shougo/dein.vim'
 repo = 'cocopon/iceberg.vim'
 hook_add = 'colorscheme iceberg'
 
-# [[plugins]]
-# repo = 'flazz/vim-colorschemes'
-# hook_add = 'colorscheme jellybeans'
-
 # ================
 # == StatusLine ==
 # ================
 [[plugins]]
 repo = 'itchyny/lightline.vim'
+hook_add = '''
+  let g:lightline = {
+  \ 'colorscheme': 'one',
+  \ 'active': {
+  \ 'left': [ ['mode', 'paste'], ['readonly', 'filepath', 'modified'] ]
+  \ },
+  \ 'component_function': {
+  \ 'filepath': 'FilePath'
+  \ }
+  \ }
+
+  function! FilePath()
+  if winwidth(0) > 90
+    return expand("%:s")
+  else
+    return expand("%:t")
+  endif
+  endfunction
+
+  set noshowmode
+'''
 
 # ================
 # ==  NERDTree  ==

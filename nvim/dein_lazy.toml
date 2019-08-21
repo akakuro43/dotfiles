@@ -52,3 +52,17 @@ on_ft = ['javascript']
 [[plugins]]
 repo = 'gregsexton/MatchTag'
 on_path = '.*'
+
+# ==============
+# ==  golang  ==
+# ==============
+
+[[plugins]]
+repo = 'fatih/vim-go'
+on_ft = 'go'
+hook_add = ```
+  let g:go_highlight_functions = 1
+  let g:go_highlight_methods = 1
+  let g:go_highlight_structs = 1
+  let g:go_fmt_command = "goimports"
+```

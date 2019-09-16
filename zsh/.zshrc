@@ -14,6 +14,8 @@ fi
 
 alias vim='nvim'
 
+alias mkdir='(){mkdir $1;cd $1}'
+
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init - zsh)"
 

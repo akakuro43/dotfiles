@@ -57,8 +57,6 @@ set ambiwidth=double
 set number
 " クリップボードの共有
 set clipboard+=unnamed
-" 現在の行を強調, ハイライト化
-set cursorline
 " インクリメンタルサーチ
 set incsearch
 " 検索結果をハイライト

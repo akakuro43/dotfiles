@@ -27,3 +27,10 @@ fvim() {
   selected_files=$(echo "$files" | fzf -m --preview 'head -100 {}') &&
   vim $selected_files
 }
+
+fd() {
+  local dir
+  dir=$(find ${1:-.} -path '*/\.*' -prune \
+                     -o -type d -print 2> /dev/null | fzf +m) &&
+  cd "$dir"
+}

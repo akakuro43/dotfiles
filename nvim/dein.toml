@@ -54,6 +54,10 @@ repo = 'bronson/vim-trailing-whitespace'
 [[plugins]]
 repo = 'Yggdroot/indentLine'
 
+[[plugins]]
+repo = 'elzr/vim-json'
+hook_add = 'let g:vim_json_syntax_conceal = 0'
+
 # ============
 # == Github ==
 # ============
@@ -93,6 +97,7 @@ repo = 'terryma/vim-multiple-cursors'
 [[plugins]]
 repo = 'neoclide/coc.nvim'
 rev = 'release'
+# hook_add = 'source ../coc/coc-setting.vim'
 
 # ===========
 # ==  fzf  ==

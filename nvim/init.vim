@@ -128,3 +128,5 @@ noremap <silent> <Space><Space> :nohl<CR>
 " markdown
 autocmd BufRead,BufNewFile *.md set filetype=markdown
 let g:previm_open_cmd = 'open -a Google\ Chrome'
+
+let g:vim_markdown_conceal = 0

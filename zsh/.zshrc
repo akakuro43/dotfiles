@@ -24,6 +24,10 @@ export PATH="$PATH:$HOME/.composer/vendor/bin"
 export GOPATH=$(go env GOPATH)
 export PATH=$PATH:$GOPATH/bin
 
+# git
+PATH=/usr/local/bin/git:$PATH
+export PATH
+
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 fvim() {

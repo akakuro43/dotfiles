@@ -107,3 +107,9 @@ repo = 'junegunn/fzf'
 build = './install --all'
 [[plugins]]
 repo = 'junegunn/fzf.vim'
+
+# ====================
+# ==  editorconfig  ==
+# ====================
+[[plugins]]
+repo = 'editorconfig/editorconfig-vim'

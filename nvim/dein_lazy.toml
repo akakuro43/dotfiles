@@ -72,3 +72,13 @@ hook_add = '''
 # ==============
 repo = 'digitaltoad/vim-pug'
 on_ft = ['pug']
+
+# ==================
+# ==   terraform  ==
+# ==================
+repo = 'hashivim/vim-terraform'
+on_ft = ['tf']
+hook_add = '''
+  let g:terraform_align=1
+  let g:terraform_fmt_on_save=1
+'''

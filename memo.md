@@ -1,6 +1,6 @@
-## neovim を インストール
+## Brew Bundle
 ```
-brew install neovim
+brew bundle --file 'homebrew/Brewfile'
 ```
 
 ## dein.vim install
@@ -16,11 +16,6 @@ ln -s ~/dotfiles/nvim/init.vim ~/.config/nvim/init.vim
 ln -s ~/dotfiles/nvim/dein.toml ~/.config/nvim/dein.toml
 ln -s ~/dotfiles/nvim/dein_lazy.toml ~/.config/nvim/dein_lazy.toml
 ln -s ~/dotfiles/tmux/.tmux.conf ~/.tmux.conf
-```
-
-## fish のシンボリックリンク
-```
-ln -s ~/dotfiles/fish/config.fish ~/.config/fish/config.fish
 ```
 
 ## zsh

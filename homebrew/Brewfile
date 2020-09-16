@@ -1,0 +1,48 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+# Official Amazon AWS command-line interface
+brew "awscli"
+# Emacs dependency management
+brew "cask"
+# Enables you to reproduce the CircleCI environment locally
+brew "circleci"
+# Top-like interface for container metrics
+brew "ctop"
+# Pack, ship and run any application as a lightweight container
+brew "docker"
+# Remote repository management made easy
+brew "ghq"
+# Distributed revision control system
+brew "git"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# CLI for MySQL with auto-completion and syntax highlighting
+brew "mycli"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# Simplistic interactive filtering tool
+brew "peco"
+# Ruby version manager
+brew "rbenv"
+# Reattach process (e.g., tmux) to background
+brew "reattach-to-user-namespace"
+# Tool to build, change, and version infrastructure
+brew "terraform"
+# Multi-platform code-search similar to ack and ag
+brew "the_platinum_searcher"
+# Text interface for Git repositories
+brew "tig"
+# Terminal multiplexer
+brew "tmux"
+cask "clipy"
+cask "docker"
+cask "firefox"
+cask "google-chrome"
+cask "google-japanese-ime"
+cask "iterm2"
+cask "kindle"
+cask "ngrok"
+cask "notion"
+cask "slack"
+cask "zoomus"

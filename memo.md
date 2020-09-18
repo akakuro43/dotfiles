@@ -20,6 +20,7 @@ ln -s ~/dotfiles/tmux/.tmux.conf ~/.tmux.conf
 
 ## zsh
 ```
+chsh -s /usr/local/bin/zsh
 ln -s ~/dotfiles/zsh/.zshrc ~/.zshrc
 ```
 

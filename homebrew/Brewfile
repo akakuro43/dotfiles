@@ -1,5 +1,6 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-versions"
 tap "homebrew/core"
 # Official Amazon AWS command-line interface
 brew "awscli"
@@ -9,14 +10,14 @@ brew "cask"
 brew "circleci"
 # Top-like interface for container metrics
 brew "ctop"
-# Pack, ship and run any application as a lightweight container
-brew "docker"
 # Remote repository management made easy
 brew "ghq"
 # Distributed revision control system
 brew "git"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
 # CLI for MySQL with auto-completion and syntax highlighting
 brew "mycli"
 # Ambitious Vim-fork focused on extensibility and agility
@@ -35,12 +36,17 @@ brew "the_platinum_searcher"
 brew "tig"
 # Terminal multiplexer
 brew "tmux"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# UNIX shell (command interpreter)
+brew "zsh"
 cask "clipy"
 cask "docker"
 cask "firefox"
 cask "google-chrome"
 cask "google-japanese-ime"
 cask "iterm2"
+cask "karabiner-elements"
 cask "kindle"
 cask "ngrok"
 cask "notion"

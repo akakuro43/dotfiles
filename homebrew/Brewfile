@@ -24,6 +24,8 @@ brew "mycli"
 brew "neovim"
 # Simplistic interactive filtering tool
 brew "peco"
+# CLI for Postgres with auto-completion and syntax highlighting
+brew "pgcli"
 # Ruby version manager
 brew "rbenv"
 # Reattach process (e.g., tmux) to background

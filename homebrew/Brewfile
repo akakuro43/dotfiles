@@ -2,14 +2,20 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
+# Run your GitHub Actions locally 🚀
+brew "act"
 # Official Amazon AWS command-line interface
 brew "awscli"
+# Validating, recursive, caching DNS resolver
+brew "unbound"
 # Emacs dependency management
 brew "cask"
 # Enables you to reproduce the CircleCI environment locally
 brew "circleci"
 # Top-like interface for container metrics
 brew "ctop"
+# Command-line fuzzy finder written in Go
+brew "fzf"
 # Remote repository management made easy
 brew "ghq"
 # Distributed revision control system
@@ -18,10 +24,14 @@ brew "git"
 brew "go"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
+# Postgres C API library
+brew "libpq"
 # CLI for MySQL with auto-completion and syntax highlighting
 brew "mycli"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Manage multiple NodeJS versions
+brew "nodenv"
 # Simplistic interactive filtering tool
 brew "peco"
 # CLI for Postgres with auto-completion and syntax highlighting

@@ -52,6 +52,7 @@ brew "tmux"
 brew "tree"
 # UNIX shell (command interpreter)
 brew "zsh"
+cask "adobe-creative-cloud"
 cask "clipy"
 cask "docker"
 cask "firefox"

@@ -30,12 +30,16 @@ brew "libpq"
 brew "mycli"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Install NodeJS versions
+brew "node-build"
 # Manage multiple NodeJS versions
 brew "nodenv"
 # Simplistic interactive filtering tool
 brew "peco"
 # CLI for Postgres with auto-completion and syntax highlighting
 brew "pgcli"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.8"
 # Ruby version manager
 brew "rbenv"
 # Reattach process (e.g., tmux) to background
@@ -50,6 +54,8 @@ brew "tig"
 brew "tmux"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Internet file retriever
+brew "wget"
 # UNIX shell (command interpreter)
 brew "zsh"
 cask "adobe-creative-cloud"

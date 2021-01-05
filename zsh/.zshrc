@@ -17,6 +17,7 @@ alias mkdir='(){mkdir $1;cd $1}'
 alias gitlog='git log --color | fzf --ansi'
 
 export EDITOR="vim"
+
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init - zsh)"
 
@@ -24,9 +25,9 @@ export PATH="$PATH:$HOME/.composer/vendor/bin"
 export GOPATH=$(go env GOPATH)
 export PATH=$PATH:$GOPATH/bin
 
-# git
-PATH=/usr/local/bin/git:$PATH
-export PATH
+export PATH=/usr/local/bin:$PATH
+
+eval "$(nodenv init -)"
 
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

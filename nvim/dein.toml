@@ -58,6 +58,22 @@ repo = 'Yggdroot/indentLine'
 repo = 'elzr/vim-json'
 hook_add = 'let g:vim_json_syntax_conceal = 0'
 
+# ==============
+# == deoplete ==
+# ==============
+[[plugins]]
+repo = 'Shougo/deoplete.nvim'
+hook_add = '''
+   let g:deoplete#enable_at_startup = 1
+   let g:deoplete#enable_ignore_case = 1
+'''
+# deoplete on vim requires plugin 1/2
+[[plugins]]
+repo = 'roxma/nvim-yarp'
+# deoplete on vim requires plugin 2/2
+[[plugins]]
+repo = 'roxma/vim-hug-neovim-rpc'
+
 # ============
 # == Github ==
 # ============
@@ -94,10 +110,10 @@ repo = 'terryma/vim-multiple-cursors'
 # ==========
 # == 補完 ==
 # ==========
-[[plugins]]
-repo = 'neoclide/coc.nvim'
-rev = 'release'
-# hook_add = 'source ../coc/coc-setting.vim'
+# [[plugins]]
+# repo = 'neoclide/coc.nvim'
+# rev = 'release'
+# on_i = 1
 
 # ===========
 # ==  fzf  ==

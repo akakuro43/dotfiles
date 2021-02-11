@@ -5,7 +5,7 @@ brew bundle --file 'homebrew/Brewfile'
 
 ## dein.vim install
 ```
-sh ~/dotfiles/installer.sh ./.vim/bundles
+sh ~/dotfiles/nvim/installer.sh ./.vim/bundles
 ```
 
 ## 設定ファイルのシンボリックリンクを作成

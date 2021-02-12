@@ -54,24 +54,25 @@ repo = 'gregsexton/MatchTag'
 on_path = '.*'
 
 # ==============
+# ==   pug    ==
+# ==============
+repo = 'digitaltoad/vim-pug'
+on_ft = ['pug']
+
+
+# ==============
 # ==  golang  ==
 # ==============
 
 [[plugins]]
 repo = 'fatih/vim-go'
-on_ft = 'go'
+on_ft = ['go']
 hook_add = '''
   let g:go_highlight_functions = 1
   let g:go_highlight_methods = 1
   let g:go_highlight_structs = 1
   let g:go_fmt_command = "goimports"
 '''
-
-# ==============
-# ==   pug    ==
-# ==============
-repo = 'digitaltoad/vim-pug'
-on_ft = ['pug']
 
 # ==================
 # ==   terraform  ==
@@ -82,3 +83,11 @@ hook_add = '''
   let g:terraform_align=1
   let g:terraform_fmt_on_save=1
 '''
+
+# =============
+# ==   ts    ==
+# =============
+
+[[plugins]]
+repo = 'leafgarland/typescript-vim'
+on_ft = ['tsx']

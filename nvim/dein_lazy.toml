@@ -90,4 +90,8 @@ hook_add = '''
 
 [[plugins]]
 repo = 'leafgarland/typescript-vim'
-on_ft = ['tsx']
+on_ft = ['ts', 'jsx', 'tsx']
+
+[[plugins]]
+repo = 'peitalin/vim-jsx-typescript'
+on_ft = ['ts', 'jsx', 'tsx']

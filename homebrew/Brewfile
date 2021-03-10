@@ -4,6 +4,8 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 # Run your GitHub Actions locally 🚀
 brew "act"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.9"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Validating, recursive, caching DNS resolver
@@ -85,6 +87,8 @@ cask "kindle"
 cask "ngrok"
 # App to write, plan, collaborate, and get organized
 cask "notion"
+# MySQL/MariaDB database management
+cask "sequel-ace"
 # Team communication and collaboration software
 cask "slack"
 # File transfer application

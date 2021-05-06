@@ -8,14 +8,24 @@ brew "act"
 brew "python@3.9"
 # Official Amazon AWS command-line interface
 brew "awscli"
+# HTTP/2 C Library
+brew "nghttp2"
 # Validating, recursive, caching DNS resolver
 brew "unbound"
+# GNU Transport Layer Security (TLS) Library
+brew "gnutls"
+# GNU Emacs text editor
+brew "emacs"
 # Emacs dependency management
 brew "cask"
 # Enables you to reproduce the CircleCI environment locally
 brew "circleci"
 # Top-like interface for container metrics
 brew "ctop"
+# Pack, ship and run any application as a lightweight container
+brew "docker"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
 # Command-line fuzzy finder written in Go
 brew "fzf"
 # Remote repository management made easy
@@ -42,6 +52,8 @@ brew "peco"
 brew "pgcli"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.8"
+# Install various Ruby versions and implementations
+brew "ruby-build"
 # Ruby version manager
 brew "rbenv"
 # Reattach process (e.g., tmux) to background

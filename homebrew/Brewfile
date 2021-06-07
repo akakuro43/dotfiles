@@ -103,6 +103,8 @@ cask "notion"
 cask "sequel-ace"
 # Team communication and collaboration software
 cask "slack"
+# Time tracker
+cask "toggl-track"
 # File transfer application
 cask "transmit"
 # Open-source code editor

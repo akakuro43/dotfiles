@@ -8,6 +8,8 @@ brew "act"
 brew "python@3.9"
 # Official Amazon AWS command-line interface
 brew "awscli"
+# Core application library for C
+brew "glib"
 # HTTP/2 C Library
 brew "nghttp2"
 # Validating, recursive, caching DNS resolver
@@ -32,6 +34,8 @@ brew "fzf"
 brew "ghq"
 # Distributed revision control system
 brew "git"
+# Open GitHub webpages from a terminal
+brew "git-open"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
 # Lightweight and flexible command-line JSON processor
@@ -68,6 +72,8 @@ brew "tig"
 brew "tmux"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Watch files and take action when they change
+brew "watchman"
 # Internet file retriever
 brew "wget"
 # UNIX shell (command interpreter)
@@ -99,6 +105,8 @@ cask "kindle"
 cask "ngrok"
 # App to write, plan, collaborate, and get organized
 cask "notion"
+# Standalone app for debugging React Native apps
+cask "react-native-debugger"
 # MySQL/MariaDB database management
 cask "sequel-ace"
 # Team communication and collaboration software

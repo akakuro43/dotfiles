@@ -26,6 +26,8 @@ brew "circleci"
 brew "ctop"
 # Pack, ship and run any application as a lightweight container
 brew "docker"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # Command-line fuzzy finder written in Go

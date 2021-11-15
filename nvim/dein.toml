@@ -4,10 +4,14 @@ repo = 'Shougo/dein.vim'
 # =============
 # ==  color  ==
 # =============
+# [[plugins]]
+# repo = 'cocopon/iceberg.vim'
+# hook_add = 'colorscheme iceberg'
 [[plugins]]
-repo = 'cocopon/iceberg.vim'
-hook_add = 'colorscheme iceberg'
+repo = 'romainl/Apprentice'
+hook_add = 'colorscheme apprentice'
 
+#
 # ================
 # == StatusLine ==
 # ================
@@ -98,6 +102,20 @@ repo = 'terryma/vim-multiple-cursors'
 repo = 'neoclide/coc.nvim'
 rev = 'release'
 on_i = 1
+hook_add = '''
+  let g:coc_global_extensions = [
+    \'coc-json',
+    \'coc-tsserver',
+    \'coc-css',
+    \'coc-html',
+    \'coc-eslint',
+    \'coc-prettier',
+    \'coc-toml',
+    \'coc-yaml',
+    \'coc-go',
+    \'coc-vetur'
+    \]
+'''
 
 # ===========
 # ==  fzf  ==
@@ -107,6 +125,10 @@ repo = 'junegunn/fzf'
 build = './install --all'
 [[plugins]]
 repo = 'junegunn/fzf.vim'
+hook_add = '''
+  nnoremap <C-p> :GFiles<CR>
+  nnoremap <C-b> :Buffers<CR>
+'''
 
 # ====================
 # ==  editorconfig  ==

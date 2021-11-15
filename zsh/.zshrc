@@ -55,3 +55,4 @@ function peco-src() {
   zle -R -c
 }
 zle -N peco-src
+export PATH="/usr/local/opt/openjdk/bin:$PATH"

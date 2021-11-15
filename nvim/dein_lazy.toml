@@ -10,10 +10,6 @@ on_ft = ['md']
 repo = 'tyru/open-browser.vim'
 
 [[plugins]]
-repo = 'tpope/vim-endwise'
-on_i = 1
-
-[[plugins]]
 repo = 'posva/vim-vue'
 on_ft = ['vue']
 
@@ -34,16 +30,8 @@ on_ft = ['rb']
 # =============
 
 [[plugins]]
-repo = 'joonty/vdebug.git'
+repo = 'joonty/vdebug'
 on_ft = ['php']
-
-# =============
-# ==   js    ==
-# =============
-
-[[plugins]]
-repo = 'othree/yajs.vim'
-on_ft = ['javascript']
 
 # =============
 # ==  html   ==
@@ -51,19 +39,18 @@ on_ft = ['javascript']
 
 [[plugins]]
 repo = 'gregsexton/MatchTag'
-on_path = '.*'
+on_path = 'html'
 
 # ==============
 # ==   pug    ==
 # ==============
+[[plugins]]
 repo = 'digitaltoad/vim-pug'
 on_ft = ['pug']
-
 
 # ==============
 # ==  golang  ==
 # ==============
-
 [[plugins]]
 repo = 'fatih/vim-go'
 on_ft = ['go']
@@ -77,6 +64,7 @@ hook_add = '''
 # ==================
 # ==   terraform  ==
 # ==================
+[[plugins]]
 repo = 'hashivim/vim-terraform'
 on_ft = ['tf']
 hook_add = '''
@@ -85,13 +73,35 @@ hook_add = '''
 '''
 
 # =============
-# ==   ts    ==
+# ==   js    ==
 # =============
 
+# [[plugins]]
+# repo = 'othree/yajs.vim'
+# on_ft = ['javascript']
+
+# =============
+# ==   ts    ==
+# =============
 [[plugins]]
 repo = 'leafgarland/typescript-vim'
-on_ft = ['ts', 'jsx', 'tsx']
+# on_ft = ['ts', 'jsx', 'tsx']
+
+# [[plugins]]
+# repo = 'mxw/vim-jsx'
+#
+[[plugins]]
+repo = 'pangloss/vim-javascript'
+
+# [[plugins]]
+# repo = 'peitalin/vim-jsx-typescript'
+# on_ft = ['ts', 'jsx', 'tsx']
 
 [[plugins]]
-repo = 'peitalin/vim-jsx-typescript'
-on_ft = ['ts', 'jsx', 'tsx']
+repo = 'maxmellon/vim-jsx-pretty'
+
+# ===============
+# ==  graphql  ==
+# ===============
+# [[plugins]]
+# repo = 'jparise/vim-graphql'
